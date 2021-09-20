@@ -9,6 +9,8 @@ final int INTRO = 0;
 final int GAME = 1;
 final int GAMEOVER = 3;
 String [] words;
+
+//COLOUR PALLETE
  
 
 //VARIABLES
@@ -18,7 +20,6 @@ int r = int (random (0,6));
 void setup() {
   size (800, 800);
   mode = INTRO;
-  textAlign(CENTER, CENTER);
   mode = INTRO;
   words = new String [6];
   words [0] = "RED";
@@ -27,7 +28,7 @@ void setup() {
   words [3] = "YELLOW";
   words [4] = "BROWN";
   words [5] = "BLACK";
- 
+ bubble_shine = createFont ("BubbleShine.ttf", 60);
 }
 
 void draw() {

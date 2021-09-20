@@ -1,6 +1,18 @@
+PFont bubble_shine;
+
+
+
 void intro() {
   background (17, 124, 114);
+  fill(255);
   rect(300, 500, 200, 100);
+  textSize(60);
+  textAlign(CENTER, CENTER);
+  fill(0);
+  textFont(bubble_shine);
+  text("COLOUR GAME", 400, 400);
+  
+  
 } 
 
 void introClicks() {
